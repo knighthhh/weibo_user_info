@@ -10,14 +10,20 @@
 </ul>
 
 #
-#### <div id="system"/>1. 环境要求</div>
+### <div id="system"/>1. 环境要求</div>
+<ul>
+  <li>python3</li>
+  <li>mongodb数据库</li>
+  <li>python库（pymongo，requests）
+</ul>
 
-#### <div id="use"/>2. 相关配置</div>
 #
-#### <div id="theory"/>2. 实现原理</div>
+### <div id="use"/>2. 相关配置</div>
 #
-#### <div id="example"/>3. 使用实例</div>
+### <div id="theory"/>3. 实现原理</div>
 #
-#### <div id="view"/>4. 数据可视化</div>
+### <div id="example"/>4. 使用实例</div>
 #
-#### <div id="explain"/>5. 说明</div>
+### <div id="view"/>5. 数据可视化</div>
+#
+### <div id="explain"/>6. 说明</div>
