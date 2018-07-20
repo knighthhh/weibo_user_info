@@ -10,12 +10,14 @@
 </ul>
 
 #
-配置文件说明
-1.config
-使用教程<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<div id="system"/>环境要求</div>
-<div id="use"/>相关配置</div>
-<div id="theory"/>实现原理</div>
-<div id="example"/>使用实例</div>
-<div id="view"/>数据可视化</div>
-<div id="explain"/>说明</div>
+#### <div id="system"/>1. 环境要求</div>
+
+#### <div id="use"/>2. 相关配置</div>
+#
+#### <div id="theory"/>2. 实现原理</div>
+#
+#### <div id="example"/>3. 使用实例</div>
+#
+#### <div id="view"/>4. 数据可视化</div>
+#
+#### <div id="explain"/>5. 说明</div>
