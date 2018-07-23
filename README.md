@@ -46,7 +46,7 @@
 
 #
 ### <div id="view"/>5. 数据可视化</div>
-> 使用FineBI对用户信息进行数据可视化，我这里随机抽取了10万条数据，FineBI的使用方法可以百度。效果如图5-1:
+> 使用FineBI对用户信息进行数据可视化，我这里随机抽取了10万条数据，FineBI的使用方法可以百度,也可以用其他分析工具。效果如图5-1:
 <p align="center">
       <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/weibo_user.png"/><p align="center">5-1 微博用户信息可视化</p>
 </p>
