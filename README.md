@@ -22,14 +22,18 @@
 
 #
 ### <div id="theory"/>3. 实现原理</div>
-> 1） 全用户爬取原理：根据微博用户的粉丝数和关注数，来一直递归循环获取所有的用户（起始用户的粉丝又有本身自己的粉丝，所以可以一直获取，0关注的用户则爬取不到）<br/>
-> 2） 架构原理图如图2-1：</br>
+> 1） 全用户爬取原理：根据微博用户的粉丝数和关注数，来一直递归循环获取所有的用户（起始用户的粉丝又有本身自己的粉丝，所以可以一直获取，0关注的用户则爬取不到）
 
+> 2） 架构原理图如图2-1：<br/>
+<p align="center">
+      <img align="center" src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/theory.png"/><p align="center">2-1 架构图</p>
+</p>
+      
 > 3） 分析原理：从微博移动版m.weibo.cn的ajax接口请求进行分析，以姚晨为例(主页为https://m.weibo.cn/profile/1266321801) ，用户个人信息URL为：https://m.weibo.cn/api/container/getIndex?containerid=1005051266321801 ，可以看到获取粉丝信息的URL链接为：https://m.weibo.cn/api/container/getIndex?containerid=231051_-_fans_-_1266321801 ，获取关注者信息的URL链接为：https://m.weibo.cn/api/container/getIndex?containerid=231051_-_followers_-_1266321801 。每获取一个用户的信息时，将他的粉丝和关注者的id存进MongoDB数据库，以便下次直接从MongoDB获取起始ID。对应的微博分析图如下：
 <p align="center">
-  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/profile.jpg"/><p align="center">图3-1 用户主页</p><br/>
-  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/followers.jpg"/><p align="center">图3-2 用户关注者</p><br/>
-  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/fans.jpg"/><p align="center">图3-3 用户粉丝</p><br/>
+  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/profile.jpg"/><p align="center">3-1 用户主页</p><br/>
+  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/followers.jpg"/><p align="center">3-2 用户关注者</p><br/>
+  <img src="https://github.com/knighthhh/outil/blob/master/images/weibo_user_info/fans.jpg"/><p align="center">3-3 用户粉丝</p><br/>
 </p>
 
 #
