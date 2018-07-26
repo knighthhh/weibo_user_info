@@ -53,5 +53,14 @@
 
 #
 ### <div id="other"/>6. 其他</div>
-> 如果该文对您有所帮助，可以给个星或者打赏一下~
- <img width="200px" height="200px" src="http://hhhgo.cn/img/wechatimg.jpg"/>
+> 如果该文对您有所帮助，可以给个星或者打赏一下~ <br/>
+<div>
+  <div>
+     <img width="200px" height="200px" src="http://hhhgo.cn/img/wechatimg.jpg"/>
+     <img width="200px" height="200px" src="http://hhhgo.cn/img/alipayimg.jpg"/> 
+  </div>
+  <div>
+     　　　　　微信　　　　　　　　　　支付宝
+  </div>
+</div>
+
